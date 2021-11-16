@@ -6,6 +6,7 @@ write below code in functions.php
 
 function custom_ACF_blocks() {
   if( function_exists( 'acf_register_block_type' ) ) {
+  
     acf_register_block_type(array(
       'name' => 'card_blocks',
       'title' => __('My Card'),
